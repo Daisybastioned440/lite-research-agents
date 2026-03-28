@@ -17,6 +17,7 @@ Read this file first to discover what capabilities are available. Then load the 
 
 | Skill | Version | Path | When to Use |
 |---|---|---|---|
+| [First Principles](first-principles-1.0.0/SKILL.md) | 1.0.0 | `skills/first-principles-1.0.0/` | Core research principles governing all project decisions. Load for every research project. |
 | [ArXiv Watcher](arxiv-watcher-1.0.0/SKILL.md) | 1.0.0 | `skills/arxiv-watcher-1.0.0/` | Searching and summarizing academic papers from ArXiv by topic, keyword, or paper ID. |
 | [Memory Checkpoint](memory-checkpoint-1.0.0/SKILL.md) | 1.0.0 | `skills/memory-checkpoint-1.0.0/` | Saving and restoring agent working state between sessions. Use at the end of every major step and before any potentially long or risky operation. |
 | [System Info](system-info-1.0.0/SKILL.md) | 1.0.0 | `skills/system-info-1.0.0/` | Probe CPU, RAM, disk, GPU/CUDA/MPS and produce experiment design recommendations. Run at the start of any compute-intensive project. |
