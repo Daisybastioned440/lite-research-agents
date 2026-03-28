@@ -36,3 +36,7 @@ This skill interacts with the ArXiv API to find and summarize the latest researc
 ## Resources
 
 - `scripts/search_arxiv.sh`: Direct API access script.
+
+---
+
+*Credit: originally sourced from clawhub.ai*

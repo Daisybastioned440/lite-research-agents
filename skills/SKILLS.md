@@ -15,21 +15,18 @@ Read this file first to discover what capabilities are available. Then load the 
 
 ## Skill Registry
 
-| Skill | Version | Path | When to Use |
-|---|---|---|---|
-| [First Principles](first-principles-1.0.0/SKILL.md) | 1.0.0 | `skills/first-principles-1.0.0/` | Core research principles governing all project decisions. Load for every research project. |
-| [ArXiv Watcher](arxiv-watcher-1.0.0/SKILL.md) | 1.0.0 | `skills/arxiv-watcher-1.0.0/` | Searching and summarizing academic papers from ArXiv by topic, keyword, or paper ID. |
-| [Memory Checkpoint](memory-checkpoint-1.0.0/SKILL.md) | 1.0.0 | `skills/memory-checkpoint-1.0.0/` | Saving and restoring agent working state between sessions. Use at the end of every major step and before any potentially long or risky operation. |
-| [System Info](system-info-1.0.0/SKILL.md) | 1.0.0 | `skills/system-info-1.0.0/` | Probe CPU, RAM, disk, GPU/CUDA/MPS and produce experiment design recommendations. Run at the start of any compute-intensive project. |
+| Skill | Path | When to Use |
+|---|---|---|
+| [First Principles](first-principles/SKILL.md) | `skills/first-principles/` | Core research principles governing all project decisions. Load for every research project. |
+| [Memory Checkpoint](memory-checkpoint/SKILL.md) | `skills/memory-checkpoint/` | Saving and restoring agent working state between sessions. Use after every major step and before any risky operation. |
+| [System Info](system-info/SKILL.md) | `skills/system-info/` | Probe CPU, RAM, disk, GPU/CUDA/MPS and produce experiment design recommendations. Run at the start of any compute-intensive project. |
+| [ArXiv Watcher](arxiv-watcher/SKILL.md) | `skills/arxiv-watcher/` | Searching and summarizing academic papers from ArXiv by topic, keyword, or paper ID. |
+| [Persistent Persona](persistent-persona/SKILL.md) | `skills/persistent-persona/` | Assign stable research personas to agents with biplate private memory for drift detection and self-correction. Use when running a war room session. |
 
 ---
 
 ## Adding New Skills
 
-Each skill must:
-- Live in its own versioned folder: `skills/<slug>-<version>/`
-- Contain a `SKILL.md` with YAML frontmatter (`name`, `description`)
-- Contain a `_meta.json` with `slug`, `version`, `publishedAt`
-- Be registered in the table above before it can be used
+Each skill lives in its own folder: `skills/<slug>/`. It must contain a `SKILL.md` with YAML frontmatter (`name`, `description`). Register it in the table above before use.
 
 Skills are model-agnostic. Any agent (Claude, GPT-4o, Gemini, etc.) can execute a skill by reading its `SKILL.md`.

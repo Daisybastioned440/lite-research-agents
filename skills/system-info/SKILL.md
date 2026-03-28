@@ -207,3 +207,7 @@ Example output:
 | `memory/system-profile.md` | Full system profile + experiment implications |
 
 This file is read by other agents (executor, orchestrator) when configuring training runs. It does not need to be included in every checkpoint — write it once at project start and update it only if hardware changes.
+
+---
+
+*Credit: originally sourced from clawhub.ai*
